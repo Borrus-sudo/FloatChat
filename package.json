@@ -12,6 +12,11 @@
     "vite": "^7.1.6"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.57.4"
+    "@deck.gl/aggregation-layers": "^9.1.14",
+    "@deck.gl/core": "^9.1.14",
+    "@deck.gl/layers": "^9.1.14",
+    "@deck.gl/mapbox": "^9.1.14",
+    "@supabase/supabase-js": "^2.57.4",
+    "maplibre-gl": "^5.7.3"
   }
 }
