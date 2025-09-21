@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Leaflet Heatmap Layer Plugin</title>
+        <style>
+            body,
+            html {
+                margin: 0;
+                padding: 0;
+                height: 100%;
+            }
+            body {
+                font-family: sans-serif;
+            }
+            body * {
+                font-weight: 200;
+            }
+            h1 {
+                position: absolute;
+                background: white;
+                padding: 10px;
+            }
+            #map {
+                height: 50%;
+            }
+            .leaflet-container {
+                background: rgba(0, 0, 0, 0.8) !important;
+            }
+            h1 {
+                position: absolute;
+                background: black;
+                color: white;
+                padding: 10px;
+                font-weight: 200;
+                z-index: 10000;
+            }
+            #all-examples-info {
+                position: absolute;
+                background: white;
+                font-size: 16px;
+                padding: 20px;
+                top: 100px;
+                width: 350px;
+                line-height: 150%;
+                border: 1px solid rgba(0, 0, 0, 0.2);
+            }
+        </style>
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        />
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+        <script src="/src/deps/heatmap/heatmaps.js"></script>
+        <script src="/src/deps/heatmap/leaflet-heatmap.js"></script>
+    </head>
+    <body>
+        <h1>Leaflet Heatmap Layer Example</h1>
+        <div id="map"></div>
+        <script src="./src/heatmap.js"></script>
+    </body>
+</html>
